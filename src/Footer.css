@@ -1,0 +1,49 @@
+.footer {
+    background-color: #073d3a; /* Match this color to the one in your image */
+    color: #fff; /* This is white, assuming your text is white */
+    padding: 1rem 0; /* Adjust the padding to match your design */
+    display: flex;
+    height: 10vh;
+    justify-content: space-between; /* This will push the two spans to the sides */
+    align-items: center; /* This will vertically center the text */
+  }
+  
+  .footer-content {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* This will center the footer content in the page */
+    padding: 0 1rem; /* This gives some space on the sides */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-brand {
+    /* Styling for the brand text */
+    font-weight: bold; /* Adjust as needed */
+  }
+  
+  .footer-made-with {
+    /* Styling for the 'Made with Durable' text */
+    font-style: italic; /* Adjust as needed */
+  }
+
+  .footer-made-with a, u {
+    /* Styling for the 'Made with Durable' text */
+    font-style: italic; /* Adjust as needed */
+    color:#fff;
+    text-decoration: none;
+  }  
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-brand,
+    .footer-made-with {
+      margin: 0.5rem 0; /* Adds vertical space when stacked */
+    }
+  }
+  

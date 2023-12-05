@@ -1,0 +1,13 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #fffcf2; /* A light gray background color */
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center; /* Center the content by default */
+}
+
+/* Add other global styles here */

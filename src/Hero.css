@@ -1,0 +1,81 @@
+.hero {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('./images/ereader-hero.webp'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .hero-content {
+    margin-left: 80px;
+    max-width: 700px;
+    text-align: left;
+  }
+  
+  .hero h1 {
+    font-size: 5rem; /* Adjust size as needed */
+    margin-bottom: 0.5em;
+  }
+  
+  .hero p {
+    font-size: 1.25rem; /* Adjust size as needed */
+    margin-bottom: 2em;
+    line-height: 1.5;
+  }
+  
+  .shop-button {
+    background-color: #989795; /* The button's background color */
+    color: #545151; /* The button text color */
+    padding: 10px 20px; /* Top and bottom padding and left and right padding */
+    margin-left: 20px;
+    font-size: 1.25rem; /* The size of the font */
+    border: 2px solid #989795; /* The border of the button */
+    border-radius: 10px; 
+    cursor: pointer; /* The type of cursor when you hover over the button */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for the hover effect */
+    text-align: center; /* Align the text to the center */
+    display: inline-block; /* Display method to allow width and height */
+    text-decoration: none; /* Remove underline from links */
+  } 
+
+  .shop-button:hover {
+    background-color: #8e8d8d; /* Slightly darker shade when hovered */
+  }
+
+  .create-ebook-button {
+    background-color: #d3a673; /* The button's background color */
+    color: #000; /* The button text color */
+    padding: 10px 20px; /* Top and bottom padding and left and right padding */
+    font-size: 1.25rem; /* The size of the font */
+    border: 2px solid #d3a673; /* The border of the button */
+    border-radius: 10px; /* The radius of the border corners */
+    cursor: pointer; /* The type of cursor when you hover over the button */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for the hover effect */
+    text-align: center; /* Align the text to the center */
+    display: inline-block; /* Display method to allow width and height */
+    text-decoration: none; /* Remove underline from links */
+  }
+
+  .create-ebook-button:hover {
+    background-color: #cba962; /* Slightly darker shade when hovered */
+  }
+  
+  /* Add responsive adjustments if necessary */
+  @media (max-width: 768px) {
+    .hero-content {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+  
