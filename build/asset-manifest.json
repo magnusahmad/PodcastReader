@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05fef200.css",
+    "main.js": "/static/js/main.a14b20bb.js",
+    "static/media/ereader-hero.webp": "/static/media/ereader-hero.cbc6ea38213e3ca26f51.webp",
+    "static/media/microphone_nobg.png": "/static/media/microphone_nobg.d91d6f5713b627169c34.png",
+    "index.html": "/index.html",
+    "main.05fef200.css.map": "/static/css/main.05fef200.css.map",
+    "main.a14b20bb.js.map": "/static/js/main.a14b20bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05fef200.css",
+    "static/js/main.a14b20bb.js"
+  ]
+}

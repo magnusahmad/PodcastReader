@@ -1,13 +1,18 @@
 const express = require('express');
 const app = express();
-const port = 3001; 
+const path = require('path');
 
 app.use(express.json()); // Middleware to parse JSON requests
-
+app.use(express.static(path.join(__dirname, '..', 'build')));
 // Define routes here...
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '..', '/build/index.html'));
+});
+
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+    console.log(`Server is up and running on port ${port}`);
 });
 
 app.post('/api/process-url', async (req, res) => {
